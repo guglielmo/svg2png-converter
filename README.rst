@@ -1,4 +1,4 @@
-Node HTTP server on port 8888, that converts an svg stream, passed as POST, into a PNG image.
+Node JS basic HTTP server on port 8888, that converts an svg stream, passed as POST, into a PNG image.
 
 Instructions
 ============
