@@ -25,17 +25,19 @@ To install (debian squeeze)::
 
 
 To run::
+
     node converter.js
 
 
 To convert::
+
    curl -X POST -d @graph.svg http://thehost:8888/ > graph.png
 
 
 Notes
 =====
 Conversion is rather raw, yet. It does not take into account size, quality, transparency.
-Have to look into imagemagic and librsvg library to take care of it.
+Have to look into imagemagick and the librsvg library to take care of it.
 
 
 
